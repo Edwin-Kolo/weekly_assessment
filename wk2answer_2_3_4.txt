@@ -1,0 +1,58 @@
+fun main () {
+    for (i in 1..10) {
+        if (i == 4) {
+            continue
+        }else if (i == 5){
+            continue
+        }else{
+            println(i)
+        }
+    }
+
+
+           for (x in 10..30) {
+    if (x%2 != 0 && x <= 20) {
+        continue
+    } else if (x%2 != 1 && x >= 21){
+        continue
+    }else {
+        println("$x")
+    }
+
+           for (a in 1..100) {
+    println(a)
+}
+
+
+
+
+
+
+
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

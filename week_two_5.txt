@@ -1,0 +1,92 @@
+class Staff {
+    var name: String = ""
+    var age: Int = 0
+    var id: Int = 0
+    var subject: String = ""
+    var dept: String = ""
+    
+    constructor(age: Int, name: String, dept: String) {
+        this.age = age
+        this.dept = dept
+        this.name = name
+    }
+    fun get () =
+    
+    fun set(value){
+        field = value
+    }
+}
+
+
+
+class KitchenItems {
+    var cooking: String = ""
+    var numbOfSpoon: Int = 0
+    var numbOfRack: Int = 0
+    var refrigerator: String = ""
+    var blender: String = ""
+    
+    constructor(numbOfRack: Int, blender: String, refrigerator: String) {
+        this.numbOfRack = numberOfRack
+        this.blender = blender
+        this.refrigerator = refrigerator
+    }
+    
+}
+
+
+class LivingRoomItems {
+    var seater: String = ""
+    var numbOfSeater: Int = 0
+    var tvSet: Int = 0
+    var musicPlayer: String = ""
+    var windowCover: String = ""
+    
+    constructor(tvSet: Int, windowCover: String, musicPlayer: String) {
+        this.tvSet = tvSet
+        this.windowCover = windowCover
+        this.musicPlayer = musicPlayer
+    }
+    
+}
+
+
+class MovieMaking {
+    var photography: String = ""
+    var numbOfCharacters: Int = 0
+    var producers: Int = 0
+    var scriptWriter: String = ""
+    var director: String = ""
+    
+    constructor(producers: Int, director: String, scriptWriter: String) {
+        this.producers = producers
+        this.director = director
+        this.scriptWriter = scriptWriter
+    }
+    
+    
+    fun set(value){
+        field = value
+    }
+}
+
+class VehicleParts {
+    var tyre: String = ""
+    var numbOfSeat: Int = 0
+    var numbOfPad: Int = 0
+    var engine: String = ""
+    var gearType: String = ""
+    
+    constructor(numbOfPad: Int, engine: String, gearType: String) {
+        this.numbOfPad = numbOfPad
+        this.gearType = gearType
+        this.engine = engine
+    }
+    fun get(){
+        println
+    }
+    
+    fun set(value){
+        field =
+    }
+}
