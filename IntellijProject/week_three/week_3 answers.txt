@@ -1,0 +1,24 @@
+val str = "Good Food"
+ var result: String = ""
+ var lastIndex = str.lastIndex
+ while (lastIndex >= 0) {
+     result += str[lastIndex]
+     lastIndex--
+ }
+ println("Reversed: $result")
+
+
+
+
+
+for (x in 1..100) {
+     if (x%15 == 0) {
+         println("FizzBuzz")
+     } else if (x%5 == 0) {
+         println("Buzz")
+     } else if (x%3 == 0) {
+         println("Fizz")
+     } else {
+         print(x)
+     }
+ }
